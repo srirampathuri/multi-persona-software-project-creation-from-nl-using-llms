@@ -60,14 +60,15 @@ Git, GitHub
 JSON for structured communication
 
 🧪 Running the Project
-bash
+```bash
 Copy
 Edit
 # Install dependencies
 pip install -r requirements.txt
 
-# Run main system (modify as per your entry point)
-python src/main.py
+# Run main system
+python app.py
+```
 📌 Use Cases
 Auto-generating web/app projects from a simple prompt
 
@@ -76,10 +77,7 @@ Simulating cross-role collaboration using LLMs
 Academic demonstrations of role-based LLM prompting
 
 Building low-code or no-code AI systems
-
 🤖 Future Work
-Add GUI interface using Streamlit or Gradio
-
 Add live debugging and test-correction loop
 
 Integrate vector memory and RAG
