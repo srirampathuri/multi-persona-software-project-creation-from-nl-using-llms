@@ -35,3 +35,58 @@ Task Breakdown
 [Engineer Persona]
 ⬇
 Code Generation
+
+📂 Folder Structure
+
+Project Structure
+Meta/
+├── prompts/
+├── src/
+│   ├── persona_engine.py
+│   ├── system_orchestrator.py
+│   └── ...
+├── outputs/
+├── requirements.txt
+└── README.md
+🛠️ Technologies
+Python 3.10+
+
+LangChain / Gemini / OpenAI APIs
+
+Streamlit (optional GUI)
+
+Git, GitHub
+
+JSON for structured communication
+
+🧪 Running the Project
+bash
+Copy
+Edit
+# Install dependencies
+pip install -r requirements.txt
+
+# Run main system (modify as per your entry point)
+python src/main.py
+📌 Use Cases
+Auto-generating web/app projects from a simple prompt
+
+Simulating cross-role collaboration using LLMs
+
+Academic demonstrations of role-based LLM prompting
+
+Building low-code or no-code AI systems
+
+🤖 Future Work
+Add GUI interface using Streamlit or Gradio
+
+Add live debugging and test-correction loop
+
+Integrate vector memory and RAG
+
+Fine-tune LLMs for each persona
+
+👨‍💻 Contributors
+Sriram Pathuri 
+
+Santhosh Kumar
