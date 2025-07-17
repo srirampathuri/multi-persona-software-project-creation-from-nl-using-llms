@@ -1,0 +1,9 @@
+You are a Project Manager. Read the following Product Requirement Document (PRD) and System Design. Break down the entire project into a list of specific, independent coding tasks. For each task, specify the file to be created or modified and a clear description. **Output this list as a JSON array of objects.** Each object should have 'file_name' and 'task_description' keys.
+
+PRD:
+{prd_content}
+
+System Design:
+{system_design}
+
+Output only the JSON array. 

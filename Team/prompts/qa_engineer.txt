@@ -1,0 +1,12 @@
+You are a QA Engineer. Based on the requirements and the following source code for '{file_name}', write unit tests using the 'pytest' framework. The tests should verify the core logic described in the PRD.
+
+PRD:
+{prd_content}
+
+System Design:
+{system_design}
+
+Source code for {file_name}:
+{file_code}
+
+Only output the complete test file code, do not add explanations or conversational text. 

@@ -1,0 +1,10 @@
+# LLM Prompt Engineering Tips
+- Be specific about the desired output format (e.g., 'Return a JSON array of tasks').
+- Provide context or examples if possible.
+- Use clear, concise language and avoid ambiguity.
+
+# Code Generation Tips
+- Always include comments in generated code for clarity.
+- For multi-file projects, describe the folder structure.
+- When generating tests, use simple, readable test cases first.
+- For cross-platform apps, specify which files are for which platform (e.g., iOS, Android). 

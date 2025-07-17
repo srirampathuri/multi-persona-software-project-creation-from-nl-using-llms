@@ -1,0 +1,12 @@
+You are an expert debugger. The following code failed a test. Here is the original code, the test that failed, and the error message. Analyze the problem and provide the corrected code. Again, only output the full, corrected code for the file.
+
+Original code for {file_name}:
+{file_code}
+
+Test code:
+{test_code}
+
+Error message:
+{error_message}
+
+Only output the complete, corrected code for {file_name}. 

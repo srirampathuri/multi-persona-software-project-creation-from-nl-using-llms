@@ -1,0 +1,11 @@
+You are a Software Architect. Based on the following Product Requirement Document (PRD), create a technical system design in Markdown format. Your design must include:
+
+1. **Technology Stack:** Specify the programming language, frameworks, and any key libraries.
+2. **System Architecture:** Describe the overall architecture and how components interact.
+3. **Class and Module Design:** List all necessary classes/modules, their responsibilities, key methods, and attributes.
+4. **File Structure:** Propose a clear project file/directory structure.
+
+PRD:
+{prd_content}
+
+Generate the system design now. 

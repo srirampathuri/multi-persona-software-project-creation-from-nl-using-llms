@@ -1,0 +1,88 @@
+/* Custom Timeline Styles */
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+}
+.timeline li {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+  list-style: none;
+  transition: background 0.3s;
+}
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: 0.3rem;
+  top: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #dee2e6;
+  border: 2px solid #0d6efd;
+  z-index: 1;
+  transition: background 0.3s, border 0.3s;
+}
+.timeline li.info::before {
+  background: #e7f1ff;
+  border-color: #0d6efd;
+}
+.timeline li.success::before {
+  background: #d1e7dd;
+  border-color: #198754;
+}
+.timeline li.error::before {
+  background: #f8d7da;
+  border-color: #dc3545;
+}
+.timeline li.complete::before {
+  background: #fff3cd;
+  border-color: #ffc107;
+}
+.timeline li {
+  font-size: 1.1rem;
+  border-left: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+.timeline li:last-child {
+  border-left: none;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.progress {
+  border-radius: 1rem;
+  background: #e9ecef;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.progress-bar {
+  font-weight: 600;
+  font-size: 1rem;
+  transition: width 0.5s cubic-bezier(.4,2,.6,1);
+}
+
+#download-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(40,167,69,0.08);
+}
+
+body {
+  background: #f8fafc;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.navbar {
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(13,110,253,0.08);
+}
+
+.footer {
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 -2px 8px rgba(13,110,253,0.08);
+} 

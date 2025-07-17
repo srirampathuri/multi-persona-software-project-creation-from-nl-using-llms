@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Project Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Basic Project Generator</a>
+        </div>
+    </nav>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-4">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <h1 class="fw-light display-5 mb-3">Mutli Persona Based Project Designer</h1>
+                <p class="lead text-muted">Describe your software idea and watch it come to life in real time. Get a PRD, system design, code, and tests—all generated for you!</p>
+                <form id="ideaForm" class="row g-3 justify-content-center mt-4">
+                    <div class="col-12 col-md-8">
+                        <input type="text" class="form-control form-control-lg" name="idea" placeholder="Describe your project idea..." required>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Generate</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow mb-4">
+                    <div class="card-header bg-white d-flex align-items-center">
+                        <span class="fw-bold me-2">Real-Time Progress</span>
+                        <div id="spinner" class="spinner-border text-primary ms-auto d-none" role="status" style="width: 1.5rem; height: 1.5rem;"></div>
+                    </div>
+                    <div class="card-body">
+                        <div class="progress mb-3" style="height: 1.5rem;">
+                            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 0%">Waiting...</div>
+                        </div>
+                        <ul id="status-timeline" class="timeline list-unstyled mb-0"></ul>
+                        <a id="download-btn" href="#" class="btn btn-success btn-lg mt-4 w-100" style="display: none;">Download Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-primary text-white text-center">
+        <div class="container">
+            <span>ThankYou for using Basic Project Generator</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html> 
